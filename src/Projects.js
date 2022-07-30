@@ -24,10 +24,10 @@ const Projects = () => {
         <div className="column-spaced">
           <h1>Calculator</h1>
           <p>I built this calculator that performs basic math equations.</p>
-          <a href={"https://www.pizzeriamarinarasd.com/"} target="blank">
+          <a href={"https://github.com/Javier-Ortiz-97/calculator"} target="blank">
             <p>Checkout the source code on GitHub</p>
           </a>
-          <a href={"https://www.pizzeriamarinarasd.com/"} target="blank">
+          <a href={"https://lively-custard-218fb5.netlify.app"} target="blank">
             <p>View the website live here</p>
           </a>
         </div>
@@ -39,10 +39,10 @@ const Projects = () => {
         <div className="column-spaced">
           <h1>Portfolio</h1>
           <p>I built this website you are currently viewing</p>
-          <a href={"https://www.pizzeriamarinarasd.com/"} target="blank">
+          <a href={"https://github.com/Javier-Ortiz-97/portfolio"} target="blank">
             <p>Click here to checkout the source code on GitHub</p>
           </a>
-          <a href={"https://www.pizzeriamarinarasd.com/"} target="blank">
+          <a href={"https://regal-hotteok-ed8833.netlify.app"} target="blank">
             <p>Click here to view the website live</p>
           </a>
         </div>
