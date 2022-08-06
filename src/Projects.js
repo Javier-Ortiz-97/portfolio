@@ -42,7 +42,7 @@ const Projects = () => {
           <a href={"https://github.com/Javier-Ortiz-97/portfolio"} target="blank">
             <p>Click here to checkout the source code on GitHub</p>
           </a>
-          <a href={"https://regal-hotteok-ed8833.netlify.app"} target="blank">
+          <a href={"https://javierortiz97.netlify.app"} target="blank">
             <p>Click here to view the website live</p>
           </a>
         </div>
