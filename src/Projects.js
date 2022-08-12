@@ -1,6 +1,7 @@
 import logo from "./images/imgtwo.png";
 import calculator from "./images/calculator.png";
 import portfolio from "./images/portfolio.png";
+import quoteGenerator from "./images/quotegenerator.png";
 
 const Projects = () => {
   return (
@@ -35,6 +36,19 @@ const Projects = () => {
           <img src={calculator} alt="" />
         </div>
       </div>
+      <div className="project">
+      <div className="column-spaced">
+        <h1>Random Quote Generator</h1>
+        <p>I built this random quote generator using React and Axios</p>
+        <a href={"https://github.com/Javier-Ortiz-97/quote-generator/tree/master"} target="blank">
+          <p>Click here to checkout the source code on GitHub</p>
+        </a>
+        <a href={"https://magnificent-chebakia-a6ee7c.netlify.app/"} target="blank">
+          <p>Click here to view the website live</p>
+        </a>
+      </div>
+      <img src={quoteGenerator} alt="" />
+    </div>
       <div className="project">
         <div className="column-spaced">
           <h1>Portfolio</h1>
