@@ -121,7 +121,8 @@ body {
   justify-content: space-between;
   width: 100vh;
   padding: 5px;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
+  font-weight: 800;
 }
 
 .project p {
@@ -160,11 +161,11 @@ body {
   height: 60vh;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  /* font-family: "Fira Sans Condensed", sans-serif; */
   color: rgb(18, 111, 225);
   font-size: 4vh;
   margin-bottom: 50px;
   padding: 10%;
+  font-weight: 800;
 }
 
 .text-center {
@@ -204,27 +205,37 @@ body {
   }
   .welcome{
     margin-top: 80px;
-    font-size: 2vh;
-    height: 35vh;
-    margin-bottom: 20px;
-    padding: 5%;
+    font-size: 3vh;
+    width: 100%;
+    padding: 0 10px;
   }
   .project{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    margin: inherit auto;
+    text-align: center;
   }
   .project img{
-    height: 125px;
-    width: 125px;
+    height: 300px;
+    width: 90%;
     box-shadow: 0 0 10px;
+    margin: 20px auto;
   }
   .project h1{
-    font-size: 3.5vh;
+    font-size: 5vh;
   }
   .project p{
-    font-size: 1.5vh;
-    max-width: 30vh;
+    font-size: 2.5vh;
+    margin: 0 auto;
+  }
+  .project a{
+    font-size: 2.5vh;
+    margin: 0 auto;
   }
   .footer{
     font-size: small;
   }
 }
+
