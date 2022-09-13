@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
 /* Box sizing rules */
 *,
@@ -87,7 +87,6 @@ body {
   align-items: center;
   cursor: pointer;
 }
-
 .header {
   display: flex;
   align-items: center;
@@ -99,13 +98,11 @@ body {
   left: 0px;
   background-color: rgb(18, 111, 225);
 }
-
 .header h1 {
   font-size: 13vh;
   color: aliceblue;
   font-family: "Arima", cursive;
 }
-
 .projects {
   display: flex;
   flex-direction: column;
@@ -114,7 +111,6 @@ body {
   width: 100%;
   margin-bottom: 20px;
 }
-
 .project {
   display: flex;
   flex-direction: row;
@@ -124,7 +120,6 @@ body {
   margin-bottom: 10vh;
   font-weight: 800;
 }
-
 .project p {
   font-family: "Fira Sans Condensed", sans-serif;
   max-width: 60vh;
@@ -133,25 +128,20 @@ body {
 .project h1 {
   font-family: "Arima", cursive;
   text-shadow: 1px 1px black;
-
 }
-
 .project a {
   color: inherit;
 }
-
-.project img{
+.project img {
   width: 250px;
   height: 250px;
   box-shadow: 0 0 20px;
   object-fit: cover;
 }
-
 .project a:hover {
   color: darkblue;
   transform: scale(1.2) translateX(25px);
 }
-
 .welcome {
   display: flex;
   align-items: center;
@@ -160,14 +150,13 @@ body {
   max-width: 100%;
   height: 60vh;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: rgb(18, 111, 225);
   font-size: 4vh;
   margin-bottom: 50px;
   padding: 10%;
   font-weight: 800;
 }
-
 .text-center {
   text-align: center;
 }
@@ -175,7 +164,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .footer {
   position: absolute;
   width: 100%;
@@ -185,7 +173,6 @@ body {
   color: aliceblue;
   font-family: "Fira Sans Condensed", sans-serif;
 }
-
 .column-spaced {
   display: inherit;
   flex-direction: column;
@@ -193,49 +180,47 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
   body {
     display: block;
   }
-  .header{
+  .header {
     height: 75px;
   }
-  .header h1{
+  .header h1 {
     font-size: 7vh;
   }
-  .welcome{
+  .welcome {
     margin-top: 80px;
     font-size: 3vh;
     width: 100%;
     padding: 0 10px;
   }
-  .project{
+  .project {
     width: 100%;
     display: flex;
     flex-direction: column;
-    line-height: 2.0;
+    line-height: 2;
     margin: inherit auto;
     text-align: center;
   }
-  .project img{
+  .project img {
     height: 300px;
     width: 90%;
     box-shadow: 0 0 10px;
     margin: 20px auto;
   }
-  .project h1{
+  .project h1 {
     font-size: 5vh;
   }
-  .project p{
+  .project p {
     font-size: 2.5vh;
     margin: 0 auto;
   }
-  .project a{
+  .project a {
     font-size: 2.5vh;
     margin: 0 auto;
   }
-  .footer{
+  .footer {
     font-size: small;
   }
 }
-
