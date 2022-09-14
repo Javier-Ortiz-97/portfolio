@@ -1,4 +1,4 @@
-import logo from "./images/imgtwo.png";
+import pizzeriamarinara from "./images/pizzeriamarinara.png"
 import calculator from "./images/calculator.png";
 import portfolio from "./images/portfolio.png";
 import quoteGenerator from "./images/quotegenerator.png";
@@ -25,7 +25,7 @@ const Projects = () => {
           </a>
         </div>
         <div>
-          <img src={logo} alt="" />
+          <img src={pizzeriamarinara} alt="" />
         </div>
       </div>
 
