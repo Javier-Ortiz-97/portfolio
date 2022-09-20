@@ -3,6 +3,7 @@ import calculator from "./images/calculator.png";
 import portfolio from "./images/portfolio.png";
 import quoteGenerator from "./images/quotegenerator.png";
 import weatherapp from "./images/weatherapp.png";
+import tictactoe from "./images/tictactoe.png";
 
 const Projects = () => {
   return (
@@ -29,7 +30,6 @@ const Projects = () => {
         </div>
       </div>
 
-
       <div className="project">
         <div className="column-spaced">
           <h1>Weather App</h1>
@@ -54,6 +54,30 @@ const Projects = () => {
           <img src={weatherapp} alt="" />
         </div>
       </div>
+
+      <div className="project">
+      <div className="column-spaced">
+        <h1>Tic-Tac-Toe Game</h1>
+        <p>
+          This is a tic-tact-toe game where two players can play.
+        </p>
+        <p>Technologies Used: React</p>
+        <a
+          href={
+            "https://github.com/Javier-Ortiz-97/tic-tac-toe/tree/main/src"
+          }
+          target="blank"
+        >
+          <p>Checkout the source code on GitHub</p>
+        </a>
+        <a href={"https://unrivaled-alpaca-b61388.netlify.app"} target="blank">
+          <p>View the website live here</p>
+        </a>
+      </div>
+      <div>
+        <img src={tictactoe} alt="" />
+      </div>
+    </div>
 
       <div className="project">
         <div className="column-spaced">
